@@ -6,7 +6,7 @@ import (
 
 func testFuncFormat(testStr string, expectedStr string) func(*testing.T) {
 	return func(t *testing.T) {
-		actual := format(testStr)
+		actual := Format(testStr)
 		if actual != expectedStr {
 			t.Errorf("expected '%s' actual '%s'", expectedStr, actual)
 		}
