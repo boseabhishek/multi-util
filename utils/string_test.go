@@ -18,3 +18,4 @@ func TestFormat(t *testing.T) {
 	t.Run("when '     Hello, World   ' is passed", testFuncFormat("        Hello, World          ", "Hello, World"))
 }
 
+
